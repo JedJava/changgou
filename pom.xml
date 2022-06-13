@@ -10,7 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>changgou-service-api</module>
+        <module>changgou-service</module>
+        <module>changgou-gateway</module>
         <module>changgou-web</module>
+        <module>changgou-common</module>
+        <module>changgou-common-db</module>
+        <module>changgou-eureka</module>
     </modules>
 
     <parent>
@@ -67,6 +72,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 </project>
